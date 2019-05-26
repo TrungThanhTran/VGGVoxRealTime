@@ -192,8 +192,8 @@ def online_test():
 
 
 def test():
-	TEST_WAV1 = "data/wav/prdcv-script/4s_Linh0A_0.wav"
-	TEST_WAV2 = "data/wav/prdcv-script/10s_Linh0A_0.wav"
+	TEST_WAV1 = "data/wav/file1.wav"
+	TEST_WAV2 = "data/wav/file2.wav"
 	model = vggvox_model()
 	model.load_weights("data/model_weights/model_0.h5")
 	buckets = build_buckets(c.MAX_SEC_TEST,c.BUCKET_STEP_SEC)
