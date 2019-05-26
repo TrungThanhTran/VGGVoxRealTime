@@ -1,4 +1,4 @@
-IN_DIR="data/wav/prdcv_test_18_Fan_USB_vol13"
+IN_DIR="data/wav/test_18_Fan_USB_vol13"
 OUT_DIR="${IN_DIR}_denoised"
 
 rm -rf $OUT_DIR
