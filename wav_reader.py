@@ -82,7 +82,7 @@ def read_and_process_audio(filename, buckets):
 
 
 def test():
-	filename = "test/4s_Linh0A_0"
+	filename = "test/filename"
 	signal = read_audio(filename + ".wav",c.SAMPLE_RATE)
 	lowcut, highcut = c.FILTER_RANGE
 	signal = butter_bandpass_filter(signal, lowcut, highcut, c.SAMPLE_RATE, 1)
