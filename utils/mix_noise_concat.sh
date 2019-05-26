@@ -2,13 +2,13 @@ NOISE="84-121123-0002"
 
 NOISE_DIR="data/wav/noises/"
 NOISE_FILE="${NOISE_DIR}${NOISE}.wav"
-SPEECH_DIR="data/wav/prdcv_test_clean/"
+SPEECH_DIR="data/wav/test_clean/"
 # SPEECH_DIR="data/wav/test/"
 
 SPEECH_BEFORE_NOISE=false
 
 # Mix template (clean) audios with specified noise
-OUT_DIR="data/wav/prdcv_test_concat_${NOISE}"
+OUT_DIR="data/wav/test_concat_${NOISE}"
 if !($SPEECH_BEFORE_NOISE); then
 	OUT_DIR="${OUT_DIR}_noise-first/"
 fi
