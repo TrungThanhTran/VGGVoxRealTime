@@ -31,9 +31,9 @@ BUCKET_STEP_SEC = 1
 
 
 # Input/Output
-ENROLL_WAV_DIR = "data/wav/prdcv_enroll/"
+ENROLL_WAV_DIR = "data/wav/enroll/"
 ENROLL_LIST_FILE = "lst/batch_enroll_list.csv"
-TEST_WAV_DIR = "data/wav/prdcv_test_clean/"
+TEST_WAV_DIR = "data/wav/test_clean/"
 TEST_LIST_FILE = "lst/batch_test_list.csv"
 
 OFFLINE_RESULT_FILE = "res/results_offline.csv"
