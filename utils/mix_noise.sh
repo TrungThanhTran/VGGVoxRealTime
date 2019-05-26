@@ -2,11 +2,11 @@ NOISE="84-121123-0002"
 
 NOISE_DIR="data/wav/noises/"
 NOISE_FILE="${NOISE_DIR}${NOISE}.wav"
-SPEECH_DIR="data/wav/prdcv_template/"
+SPEECH_DIR="data/wav/template/"
 
 
 # Mix template (clean) audios with specified noise
-OUT_DIR="data/wav/prdcv_test_${NOISE}/"
+OUT_DIR="data/wav/test_${NOISE}/"
 rm -rf $OUT_DIR
 mkdir $OUT_DIR
 
