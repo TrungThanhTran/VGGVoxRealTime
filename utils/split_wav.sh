@@ -1,5 +1,5 @@
 SEGMENT_LENGTH=4  # secs
-DIR='data/wav/prdcv_others_e2'
+DIR='data/wav/others_e2'
 
 echo "splitting audio"
 for f in $(find $DIR -name '*.wav'); do 
